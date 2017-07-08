@@ -1,0 +1,6 @@
+D:\Projects\Algorithms\01.Recursion\Lab05\bin\Debug\Lab05.exe.config
+D:\Projects\Algorithms\01.Recursion\Lab05\bin\Debug\Lab05.exe
+D:\Projects\Algorithms\01.Recursion\Lab05\bin\Debug\Lab05.pdb
+D:\Projects\Algorithms\01.Recursion\Lab05\obj\Debug\Lab05.csprojResolveAssemblyReference.cache
+D:\Projects\Algorithms\01.Recursion\Lab05\obj\Debug\Lab05.exe
+D:\Projects\Algorithms\01.Recursion\Lab05\obj\Debug\Lab05.pdb
