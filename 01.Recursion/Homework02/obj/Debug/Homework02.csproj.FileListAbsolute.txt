@@ -1,0 +1,5 @@
+D:\Projects\Algorithms\01.Recursion\Homework02\bin\Debug\Homework02.exe.config
+D:\Projects\Algorithms\01.Recursion\Homework02\bin\Debug\Homework02.exe
+D:\Projects\Algorithms\01.Recursion\Homework02\bin\Debug\Homework02.pdb
+D:\Projects\Algorithms\01.Recursion\Homework02\obj\Debug\Homework02.exe
+D:\Projects\Algorithms\01.Recursion\Homework02\obj\Debug\Homework02.pdb
