@@ -5,24 +5,29 @@ namespace Lab07
 {
     class Program
     {
-        static List<char> path = new List<char>();
-        static char[,] lab =
-        {
-            {'-', '-', '-', '*', '-', '-', '-'},
-            {'*', '*', '-', '*', '-', '*', '-'},
-            {'-', '-', '-', '-', '-', '-', '-'},
-            {'-', '*', '*', '*', '*', '*', '-'},
-            {'-', '-', '-', '-', '-', '-', 'e'},
-        };
+        static List<char> path = new List<char>();   
 
         static void Main(string[] args)
         {
-            FindPaths(0, 0, 'S');
+            int x = int.Parse(Console.ReadLine());
+            int y = int.Parse(Console.ReadLine());
+
+            char[,] lab = new char[x, y];
+
+            for (int i = 0; i < x; i++)
+            {
+                string input = Console.ReadLine();
+                for (int j = 0; j < y; j++)
+                {
+                    lab[i,j] = input[j];
+                }
+            }
+            FindPaths(0, 0, 'S', lab);
         }
 
-        private static void FindPaths(int row, int col, char direction)
+        private static void FindPaths(int row, int col, char direction, char[,] lab)
         {
-            if (!IsValidCell(row, col))
+            if (!IsValidCell(row, col, lab))
             {
                 return;
             }
@@ -34,16 +39,16 @@ namespace Lab07
             else if (lab[row, col] != 'v')
             {
                 lab[row, col] = 'v';
-                FindPaths(row, col + 1, 'R');
-                FindPaths(row + 1, col, 'D');
-                FindPaths(row, col - 1, 'L');
-                FindPaths(row - 1, col, 'U');
+                FindPaths(row, col + 1, 'R', lab);
+                FindPaths(row + 1, col, 'D', lab);
+                FindPaths(row, col - 1, 'L', lab);
+                FindPaths(row - 1, col, 'U', lab);
                 lab[row, col] = '-';
             }
             path.RemoveAt(path.Count-1);
         }
 
-        private static bool IsValidCell(int row, int col)
+        private static bool IsValidCell(int row, int col, char[,] lab)
         {
             return row >= 0 &&
                    row < lab.GetLength(0) &&
