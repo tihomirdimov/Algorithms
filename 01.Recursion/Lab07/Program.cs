@@ -54,7 +54,9 @@ namespace Lab07
 
         private static void PrintPath()
         {
-            Console.WriteLine(string.Join("", path));
+            string result = string.Join("", path);
+
+            Console.WriteLine(result.Substring(1));
         }
     }
 }
