@@ -1,0 +1,6 @@
+D:\Projects\Algorithms\01.Recursion\Homework04\bin\Debug\Homework04.exe.config
+D:\Projects\Algorithms\01.Recursion\Homework04\bin\Debug\Homework04.exe
+D:\Projects\Algorithms\01.Recursion\Homework04\bin\Debug\Homework04.pdb
+D:\Projects\Algorithms\01.Recursion\Homework04\obj\Debug\Homework04.csprojResolveAssemblyReference.cache
+D:\Projects\Algorithms\01.Recursion\Homework04\obj\Debug\Homework04.exe
+D:\Projects\Algorithms\01.Recursion\Homework04\obj\Debug\Homework04.pdb
